@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-u{
+    background-color: #fff; 
+    background-image: url("/Design-O-Flex Images Round 1/Waves/wave-2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 210vh 20vw;    
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-self: center;
+    padding: 12px;
+    padding-bottom: 19px;
+    justify-content: center;
+    gap: 30px;
+}
+.logo-heading{
+    position: relative;
+    gap: 475px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-self: center;
+    color: #fff;
+}
+.main-u h1{
+    text-align: center;
+    color: #fff;
+    justify-self: center;
+    padding-top: 25px;
+    border-bottom: 2px solid #fff;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 5px;
+    font-family: 'Righteous', cursive;
+    font-size: 55px;
+}
+.content-para{
+    color: #fff;
+    text-align: center;
+    justify-self: center;
+    word-wrap: break-word;
+    padding-top: 5px;
+    padding-bottom: 50px;
+    font-family: 'Poppins' , sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.main-m{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    justify-self: center;
+    gap: 50px;
+}
+.pics{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    gap:0px;
+}
+.main-m h1{
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Poppins' , sans-serif;
+    font-size: 75px;
+    color: #022275  ;
+}
+.main-b{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    justify-self: center; 
+    gap: 50px;   
+}
+.main-b h1{
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Poppins' , sans-serif;
+    font-size: 75px;
+    color: #022275  ;   
+}
+.main-b .pics-1{    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-self: center;
+}
+.main-b .pics-2{    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-self: center;
+    gap: 50px;
+}

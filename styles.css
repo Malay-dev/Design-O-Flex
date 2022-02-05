@@ -1,13 +1,16 @@
 body{
     background-color: #521755;
 }
+.html{
+    scroll-behavior: smooth;
+}
 *{
     margin: 0;
     padding: 0;
 }
 
-.navBar{
-    font-family: 'Ubuntu', sans-serif;
+#home .navBar{
+    font-family: 'Righteous', cursive;
     top: 0px;
     display: flex;
     flex-direction: row;
