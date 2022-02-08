@@ -1,0 +1,496 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: white;
+    scroll-behavior: smooth;
+    margin: 0;
+    line-height: inherit;
+}
+.main-home{
+    background-color: #521755;
+    color: #fff;    
+}
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+}
+.navBar-nav{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    align-items: center;
+    gap: 2rem;
+    list-style-type: none;
+    background-color: transparent;
+    text-align: center;    
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+    font-family: 'Righteous', cursive;
+    font-style: normal;
+    font-size: 22px;   
+}
+.logo{
+    height: 100px;
+    width: 100px;    
+}
+.main-content{
+    display: flex;
+    flex-direction: row;    
+    align-items: center; 
+    justify-self: center;
+    justify-content: space-around;
+    z-index: 2;
+}
+.m-text{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;    
+    text-decoration: none;
+    justify-self: center;
+    color: white;
+    gap: 10px;
+    font-family: 'Righteous', cursive;    
+}
+.h-1{
+    font-size: 4rem;
+    
+}
+.h-2{
+    font-size: 3.5rem;
+    
+}
+.h-3{
+    font-size: 3.0rem;
+    
+}
+.m-img{
+    width: 325px;
+    height: 375px;
+    justify-self: center;
+    justify-content: center; 
+    position: relative; 
+}
+.m-img img{
+    width: 350px;
+    height: 400px;
+}
+.gs-btn{
+    border: none;
+    overflow: hidden;
+    background-color: #1E95F6;
+    width: 200px;
+    height: 35px;
+    border-radius: 20px;
+}
+.gs-btn-txt{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.bottom-background{
+    min-width: 100%;    
+    display: block;
+    bottom: 0; 
+    justify-self: center;
+}
+/* End of styling home */
+.main-about-us{
+    display: flex;
+    flex-direction: column;    
+    background-color: #521755;
+    background-image: linear-gradient(to top left,#2c3272,  #521755);
+    justify-self: center;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    width: auto;
+}
+.u-main{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    align-items: center;  
+    justify-content: space-around;  
+}
+.u-main-txt{
+    display: block;
+    width: 50%;
+    text-align: right;
+    color: #fff;    
+    word-wrap: break-word;
+}
+.l-main{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    align-items: center;  
+    justify-content: space-around;   
+}
+.l-main-txt{
+    display: block;
+    width: 50%;
+    text-align: left;
+    color: #fff;    
+    word-wrap: break-word;
+}
+.main-about-us h1{
+    font-family: 'Righteous', cursive; 
+    font-size: 60px;   
+}
+.main-about-us p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+}
+.l-media{
+    padding: 5px;
+    height: 255px;
+    width: 255px;
+}
+.l-media-img{
+    height: 255px;
+    width: 300px;
+}
+/* End of styling about-us*/
+.main-our-work .main-u{
+    background-color: #fff; 
+    background-image: url("/Design-O-Flex Images Round 1/Waves/wave-2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 210vh 23vw;  
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-self: center;
+    padding: 12px;
+    padding-bottom: 5rem;
+    justify-content: center;    
+}
+.logo-heading{
+    position: relative;
+    gap: 475px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-self: center;
+    color: #fff;
+}
+.main-our-work .main-u h1{
+    text-align: center;
+    color: #fff;
+    justify-self: center;
+    padding-top: 25px;
+    border-bottom: 2px solid #fff;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 5px;
+    font-family: 'Righteous', cursive;
+    font-size: 55px;
+}
+.content-para{
+    color: #fff;
+    text-align: center;
+    justify-self: center;
+    word-wrap: break-word;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    font-family: 'Poppins' , sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.main-m{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    justify-self: center;
+    gap: 50px;
+}
+.pics{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    gap:0px;
+}
+.main-m h1{
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Poppins' , sans-serif;
+    font-size: 75px;
+    color: #022275  ;
+}
+.main-b{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    justify-self: center; 
+    gap: 50px;   
+}
+.main-b h1{
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Poppins' , sans-serif;
+    font-size: 75px;
+    color: #022275  ;   
+}
+.main-b .pics-1{    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-self: center;
+}
+/* .main-b .pics-2{    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-self: center;
+    gap: 50px;
+} */
+.pics-2 {
+    max-width: 100%;       
+    padding: 75px 60px;
+    background-color: transparent;
+}  
+.slick-next{
+    color: black;
+    background-color: #022275;
+}
+.slick-next:before {
+    position: relative;    
+    top: -15px;
+    content: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1552126/right-carousel-arrow.png");
+} 
+.slick-prev:before {
+    position: relative;
+    top: -15px;
+    right:20px;
+    content: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1552126/left-carousel-arrow.png");
+}  
+.slick-prev:before,
+.slick-next:before {
+    font-family:initial!important;
+    color:rgb(0, 0, 0) !important; 
+    font-size: xx-large !important;
+}
+.slick-list{
+    padding:0 0 0 0 !important;
+}
+/* End of styling our-work*/ 
+.main-our-events{
+    height: 100vh;
+    width: auto;
+}
+.main-our-events .main-u{
+    background-color: #fff; 
+    background-image: url("/Design-O-Flex Images Round 1/Waves/wave-4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 210vh 16vw;  
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-self: center;
+    padding: 35px;
+    padding-bottom: 5rem;
+    justify-content: center;        
+}  
+.main-our-events .main-u h1{
+    text-align: center;
+    color: #fff;
+    justify-self: center;
+    padding-top: 25px;
+    border-bottom: 2px solid #fff;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 5px;
+    font-family: 'Righteous', cursive;
+    font-size: 55px;
+}
+.main-our-events .main-l{
+    display: flex;
+    justify-self: center;
+    justify-items: center;
+    justify-content: space-around;
+    padding-top: 5rem;
+
+}
+.card-list{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding: 1rem;
+    width: 16rem;
+    height: 24rem;
+    border-radius: 2rem;
+    background-color: #521755;
+    background-image: linear-gradient(to top left,#2c3272,  #521755);
+}
+#card .e-img{
+    max-width: 100%;
+    height: auto;
+    display: block    
+}
+#card .e-txt{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    border-radius: 9999px;
+    background-color: #fff;
+    text-align: center;
+    font-family: 'Righteous';
+    width: 10rem;
+    height: 2rem;    
+}
+/* End of styling our-events*/ 
+.main-contact-us{
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-self: center;    
+}
+.main-contact-us .heading{
+    font-size: 2.5rem;
+    line-height: 1;
+    margin: 3rem 3rem 3rem 3rem;
+    font-family: 'Righteous',cursive;
+    color: #401242;
+}
+.main-contact-us .main-u{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-self: center;    
+}
+.main-u-1-form{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins';
+    width: 35rem;
+}
+.name{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    padding: 0.25rem;
+    border-width: 2px;
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: bold;   
+}
+.email{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    padding: 0.25rem;
+    border-width: 2px;
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: bold;   
+}
+.message{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    padding: 0.25rem;
+    border-width: 2px;
+    width: 100%;
+    height: 16rem;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: bold;   
+}
+.submit-btn{
+    border: none;
+    overflow: hidden;
+    background-color: #1E95F6;
+    width: 200px;
+    height: 35px;
+    border-radius: 20px;
+    align-self: flex-end;
+    color: #fff;
+    font-family: 'Righteous';
+    font-size: 1.125rem;
+}
+.footer{    
+    background-image: url("/Design-O-Flex Images Round 1/Waves/wave-3.png");
+    background-position: center;
+    background-repeat: no-repeat;    
+    background-size: 210vh 13vw;   
+    padding-top: 6rem;  
+}
+.footer-content{    
+    display: flex;
+    flex-direction: row;
+    font-family: 'Righteous', cursive;
+    justify-items: center;
+    justify-content: space-around;
+}
+.m-left{
+    color: #fff;
+    width: 70%;
+    font-size: 2rem;
+    line-height: 1;
+}
+.m-right{
+    font-size: 1rem;
+    line-height: 1;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    justify-content: space-around;
+    gap: 2rem;
+    text-align: center;
+}
+.m-right img{
+    align-self: flex-end;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 15px;
+    
+}
+.m-right .social a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5rem;
+}
+/* End of styling contact-us*/ 
