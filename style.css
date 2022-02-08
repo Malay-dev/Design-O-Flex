@@ -167,7 +167,7 @@ body{
 /* End of styling about-us*/
 .main-our-work .main-u{
     background-color: #fff; 
-    background-image: url("/Design-O-Flex Images Round 1/Waves/wave-2.png");
+    background-image: url("./assets/Waves/wave-2.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 210vh 23vw;  
@@ -296,7 +296,7 @@ body{
 }
 .main-our-events .main-u{
     background-color: #fff; 
-    background-image: url("/Design-O-Flex Images Round 1/Waves/wave-4.png");
+    background-image: url("./assets/Waves/wave-4.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 210vh 16vw;  
@@ -381,8 +381,8 @@ body{
 }
 .main-contact-us .heading{
     font-size: 2.5rem;
-    line-height: 1;
-    margin: 3rem 3rem 3rem 3rem;
+    line-height: 0.5;
+    margin: 2rem 2rem 2rem 2rem;
     font-family: 'Righteous',cursive;
     color: #401242;
 }
@@ -448,10 +448,10 @@ body{
     font-size: 1.125rem;
 }
 .footer{    
-    background-image: url("/Design-O-Flex Images Round 1/Waves/wave-3.png");
+    background-image: url("./assets/Waves/wave-3.png");
     background-position: center;
     background-repeat: no-repeat;    
-    background-size: 210vh 13vw;   
+    background-size: 210vh 15vw;   
     padding-top: 6rem;  
 }
 .footer-content{    
